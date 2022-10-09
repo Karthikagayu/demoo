@@ -23,6 +23,8 @@ export default function Read() {
         localStorage.setItem('Checkbox Value', checkbox)
         // setShown(true)
 
+        
+
 }
 const onDelete = (id) => {
     axios.delete(`http://localhost/contact/api/user/delete/${id}`).then(()=>{
